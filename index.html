@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Magic Eight Ball</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <h1>Magic Eight Ball</h1>
+            <h2>See the future by asking the magic eight ball a question.</h2>
+            <div id="eight-ball">
+                <div id="eight-circle">
+                    <p>8</p>
+                </div> <!-- /eight-circle -->
+                <div id="answer-box"></div>
+            </div> <!-- /eight-ball -->
+            <div id="input-container">
+                <input type="text" name="question-box" id="question-box">
+                <button id="submit-button" onClick="getEightBallAnswer()">Ask Question!</button>
+            </div>
+            
+        </div> <!-- /flex-container -->
+        <script src="./js/script.js"></script>
+    </body>
+</html>
